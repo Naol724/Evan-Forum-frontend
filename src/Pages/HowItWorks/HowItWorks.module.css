@@ -1,0 +1,106 @@
+.container {
+  padding: 24px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 50px 28px;
+  border-radius: 10px;
+}
+
+.heading {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #4b456f;
+}
+
+.headerRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.iconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 22px;
+}
+
+.icon {
+  color: #f48024;
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+}
+
+.section {
+  text-align: center;
+  padding: 10px 10px !important;
+}
+
+.subHeading {
+  font-size: 22px;
+  font-weight: 600;
+  color: #0066ff;
+  line-height: 1;
+  margin: 0;
+}
+
+p {
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 12px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  max-width: 520px;
+}
+
+.list li {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.list li::before {
+  content: none;
+}
+
+.closingMessage {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 40px;
+  color: #333;
+}
+
+@media (max-width: 760px) {
+  .content {
+    padding: 28px 18px;
+  }
+
+  .heading {
+    font-size: 28px;
+  }
+
+  .subHeading {
+    font-size: 20px;
+  }
+
+  .headerRow {
+    gap: 6px;
+  }
+}
